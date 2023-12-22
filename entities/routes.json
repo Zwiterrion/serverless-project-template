@@ -309,7 +309,7 @@
         "default"
       ]
     },
-    "id": "test2",
+    "id": "test",
     "name": "TEST route",
     "description": "TEST route",
     "tags": [],
@@ -335,7 +335,7 @@
       "targets": [
         {
           "id": "target_1",
-          "hostname": "https://console.cloud-apim.com/serverless/projects/project_00617a94c-a92b-4cb1-a175-57d218357bb9/working-copy",
+          "hostname": "https://mirror.otoroshi.io",
           "port": 443,
           "tls": true,
           "weight": 1,
