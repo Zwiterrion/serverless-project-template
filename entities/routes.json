@@ -309,9 +309,9 @@
         "default"
       ]
     },
-    "id": "get_root",
-    "name": "GET root",
-    "description": "GET root",
+    "id": "test",
+    "name": "TEST route",
+    "description": "TEST route",
     "tags": [],
     "metadata": {},
     "enabled": true,
