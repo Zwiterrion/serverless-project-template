@@ -309,9 +309,9 @@
         "default"
       ]
     },
-    "id": "test3",
-    "name": "TEST route",
-    "description": "TEST route",
+    "id": "console",
+    "name": "console route",
+    "description": "console route",
     "tags": [],
     "metadata": {},
     "enabled": true,
@@ -323,7 +323,7 @@
     ],
     "frontend": {
       "domains": [
-        "${env.HOST}/test"
+        "${env.HOST}/console"
       ],
       "strip_path": true,
       "exact": true,
