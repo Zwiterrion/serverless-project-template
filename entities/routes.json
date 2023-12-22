@@ -385,24 +385,7 @@
       }
     },
     "backend_ref": null,
-    "plugins": [
-      {
-        "enabled": true,
-        "debug": false,
-        "plugin": "cp:otoroshi.next.plugins.StaticResponse",
-        "include": [],
-        "exclude": [],
-        "config": {
-          "status": 200,
-          "headers": {
-            "Content-Type": "text/html"
-          },
-          "body": "<html><body><h1>Welcome to your new API</h1><p>This content is provided by a route in your project,<br/> you can also go to the <a href=\"/docs\">dev portal</a> or to the <a href=\"/todos\">list of todos</a>.</p></body></html>"
-        },
-        "plugin_index": {},
-        "nodeId": "cp:otoroshi.next.plugins.StaticResponse"
-      }
-    ],
+    "plugins": [],
     "kind": "Route"
   }
 ]
