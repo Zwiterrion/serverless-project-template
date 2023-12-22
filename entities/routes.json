@@ -385,7 +385,19 @@
       }
     },
     "backend_ref": null,
-    "plugins": [],
+    "plugins": [
+      {
+        "enabled": true,
+        "debug": false,
+        "plugin": "cp:otoroshi.next.plugins.OverrideHost",
+        "include": [],
+        "exclude": [],
+        "config": {},
+        "plugin_index": {
+          "transform_request": 0
+        }
+      }
+    ],
     "kind": "Route"
   }
 ]
