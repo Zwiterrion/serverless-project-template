@@ -326,7 +326,7 @@
         "${env.HOST}/console"
       ],
       "strip_path": true,
-      "exact": true,
+      "exact": false,
       "headers": {},
       "query": {},
       "methods": []
