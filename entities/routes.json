@@ -335,7 +335,7 @@
       "targets": [
         {
           "id": "target_1",
-          "hostname": "mirror.otoroshi.io",
+          "hostname": "console.cloud-apim.com",
           "port": 443,
           "tls": true,
           "weight": 1,
@@ -353,7 +353,7 @@
           }
         }
       ],
-      "root": "/",
+      "root": "/serverless/projects/project_00617a94c-a92b-4cb1-a175-57d218357bb9/working-copy",
       "rewrite": false,
       "load_balancing": {
         "type": "RoundRobin"
