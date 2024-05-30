@@ -20,6 +20,33 @@
     }
   ],
   "paths": {
+    "/hello": {
+      "get": {
+        "tags": [
+          "hello"
+        ],
+        "summary": "Get a hello",
+        "operationId": "hello",
+        "responses": {
+          "200": {
+            "description": "Get a hello",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Hello"
+                }
+              }
+            }
+          }
+        },
+        "x-cloud-apim-backend": {
+          "$ref": "#/components/x-cloud-apim-backends/jsonplaceholder"
+        },
+        "x-cloud-apim-plugins": {
+          "$ref": "#/components/x-cloud-apim-plugins/hello"
+        }
+      }
+    },
     "/todos": {
       "get": {
         "tags": [
