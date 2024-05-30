@@ -15,6 +15,14 @@
       "throttling": 100,
       "daily": "10000",
       "monthly": "10000"
+    },
+    {
+      "id": "Mon plan",
+      "name": "Mon nom",
+      "throttling": 100,
+      "daily": 1000,
+      "monthly": 10000,
+      "default": true
     }
   ]
 }
