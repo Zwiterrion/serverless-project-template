@@ -8,11 +8,6 @@
     {
       "type": "api-ref",
       "label": "API Reference"
-    },
-    {
-      "type": "toto",
-      "label": "Foo"
     }
-    
   ]
 }
