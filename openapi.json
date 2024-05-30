@@ -84,7 +84,8 @@
         },
         "x-cloud-apim-plugins": {
           "$ref": "#/components/x-cloud-apim-plugins/all"
-        }
+        },
+        "x-cloud-apim-strip-path": true
       },
       "post": {
         "tags": [
@@ -269,20 +270,33 @@
           "title": {
             "description": "description of the task",
             "type": "string",
-            "examples": ["My important task", "Do something"]
+            "examples": [
+              "My important task",
+              "Do something"
+            ]
           },
           "id": {
             "description": "id of the task",
             "type": "integer",
             "readOnly": true,
             "format": "int32",
-            "examples": [1, 2, 3, 4]
+            "examples": [
+              1,
+              2,
+              3,
+              4
+            ]
           },
           "userId": {
             "description": "id of the user that created the task",
             "type": "integer",
             "format": "int32",
-            "examples": [1, 2, 3, 4]
+            "examples": [
+              1,
+              2,
+              3,
+              4
+            ]
           }
         }
       },
@@ -294,12 +308,16 @@
             "format": "int32",
             "description": "Error code that identify of the error",
             "type": "integer",
-            "examples": ["1000"]
+            "examples": [
+              "1000"
+            ]
           },
           "message": {
             "description": "Short description of the error",
             "type": "string",
-            "examples": ["Could not perform the task"]
+            "examples": [
+              "Could not perform the task"
+            ]
           }
         }
       }
@@ -361,7 +379,11 @@
               "Authorization"
             ],
             "allow_methods": [
-              "GET", "PUT", "POST", "DELETE", "PATCH"
+              "GET",
+              "PUT",
+              "POST",
+              "DELETE",
+              "PATCH"
             ],
             "max_age": null,
             "allow_credentials": true
@@ -407,7 +429,7 @@
       "jsonplaceholder": {
         "targets": [
           {
-            "hostname": "jsonplaceholder.typicode.com",
+            "hostname": "mirror.otoroshi.io",
             "port": 443,
             "tls": true
           }
@@ -415,6 +437,7 @@
         "root": "/",
         "rewrite": false
       }
-    }
+    },
+    "x-cloud-apim-frontends": {}
   }
 }
