@@ -305,6 +305,19 @@
       }
     },
     "x-cloud-apim-plugins": {
+      "hello": [
+        {
+          "enabled": true,
+          "plugin": "cp:otoroshi.next.plugins.OverrideHost"
+        },
+        {
+          "enabled": true,
+          "plugin": "cp:cloud-apim.plugins.JsModulePlugin",
+          "config": {
+            "module": "/modules/fking-module.js"
+          }
+        }
+      ],
       "all": [
         {
           "enabled": true,
