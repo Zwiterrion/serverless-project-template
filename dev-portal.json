@@ -6,23 +6,5 @@
   "path": "/docs",
   "icon": "https://www.cloud-apim.com/assets/logo/made-with-cloud-apim-inverted.png",
   "max_user_created_apikeys": 1,
-  "plans": [
-    {
-      "id": "default",
-      "name": "default",
-      "default": true,
-      "description": "The default apikey plan",
-      "throttling": 100,
-      "daily": "10000",
-      "monthly": "10000"
-    },
-    {
-      "id": "Mon plan",
-      "name": "Mon nom",
-      "throttling": 100,
-      "daily": 1000,
-      "monthly": 10000,
-      "default": true
-    }
-  ]
+  "plans": []
 }
